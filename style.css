@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Byekan';
+	src: url('font/Byekan.ttf') format('truetype'),
+		url('font/Byekan.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'lalezar';
+	src: url('font/lalezar.ttf') format('truetype'),
+		url('font/lalezar.woff') format('woff');
+}
+
+body {
+	font-family: Byekan;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+li.menu-item,
+li.product-item {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+h1.name {
+	font-family: lalezar;
+
+	padding-top: 200px;
+	font-size: 60px;
+}
+
+span {
+	color: forestgreen;
+}
+
+p.firstpage {
+	font-size: 14px;
+	font-family: Byekan;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 22px;
+	border: 1px solid white;
+	width: 220px;
+	margin: auto;
+
+}
+
+.header {
+	background-image: url(image/2.jpg);
+	height: 750px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-attachment: fixed;
+}
+
+.header .menu-list .menu-item {
+	display: inline-block;
+	padding: 12px;
+}
+
+.header .menu-list {
+	text-align: center;
+	list-style-type: none;
+
+
+}
+
+
+li.menu-item:hover {
+	background-color: rgba(0, 0, 0, 10%);
+}
+
+.product-list {
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+.product-item {
+	width: 350px;
+	display: inline-block;
+	margin: 10px;
+	box-shadow: 0 0 20px lightgray;
+
+}
+
+.product-pic {
+	width: 100%;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.members {
+	text-align: center;
+	padding: 40px 30px;
+
+}
+
+.product-bio {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 8px;
+	text-align: justify;
+
+}
+
+.product-name {
+	font-size: 20px;
+	font-family: lalezar;
+	padding-top: 12px;
+}
+
+h2 {
+	font-family: lalezar;
+	font-size: 30px;
+
+}
+
+.about {
+	background-image: url(image/1.jpg);
+	height: 650px;
+	background-size: cover;
+	background-repeat: repeat;
+	background-color: #333036;
+	text-align: center;
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+}
+
+
+.about-pic {
+	width: 200px;
+	margin-top: 110px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgb(75, 73, 73);
+}
+
+.about-name {
+	color: white;
+}
+
+.about-desc {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: aliceblue;
+	font-family: lalezar;
+	background-color: rgba(198, 189, 189, 0.3);
+	border-radius: 10px;
+	padding: 4px;
+}
+
+.hamber {
+	margin-right: 42px;
+	text-align: left;
+}
+
+.fa-brands.fa-instagram {
+	color: white;
+}
